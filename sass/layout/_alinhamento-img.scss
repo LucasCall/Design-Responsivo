@@ -1,0 +1,22 @@
+.img-left {
+    float: left;
+}
+@media(min-width: $breakpoint-md) {
+    .img-left-md{
+        float: left;
+        padding-right: 15px;
+
+    }
+}
+@media(max-width: $breakpoint-sm) {
+    .img-sm{
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media(min-width: $breakpoint-sm) {
+    .img-sm{
+        display: block;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,23 @@
+.pagina-cabecalho {
+    background-color: $cor-principal;
+    background-image: url('../img/cabecalho-pagina-bg.jpg');
+    background-attachment: fixed;
+    color: #fff;
+    padding: 40px 0px;
+    padding-top: 140px;
+
+    &__titulo {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__titulo::after {
+        content: '';
+        width: 50px;
+        height: 3px;
+        background-color: #fff;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
